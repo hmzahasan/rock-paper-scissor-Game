@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    height: 5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+
+img{
+    height: 20vh;
+   
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 6rem;
+}
+p{
+    font-size: 2rem;
+}
+#score{
+    font-size: 4rem;
+}
+
+.game{
+    display: flex;
+    margin-top: 2rem;
+    height: 6rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+#result{
+    background-color: black;
+    display: inline;
+    height: 3rem;
+    border-radius: 10px;
+    align-items: center;
+   
+}
